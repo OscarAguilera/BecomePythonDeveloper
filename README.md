@@ -29,8 +29,8 @@ w= (x+z)*y
 hola = true
 
 ### IF
-*if imprimir:*
-    *print(x, w)*
+if imprimir:
+    print(x, w)
 
 ### Comentarios
 En python el comentario inicia con un signo de # y todo lo que vaya despues del signo hasta el final de la linea se considera un comentario, o de igual manera podemos usar las doble comillas triple *"""* o las comillas simple *'''*, pero tenemos que abrir con las mismas y cerrar con las que inicias, es decir por ejemplo:
@@ -59,12 +59,12 @@ Para terminar una linea de codigo solo basta con poner un salto de linea (enter)
 
 Como ya mencionamos la forma de crear una variable y asignarle el valor usando el signo de *=* pero tambien existen otras formas de hacerlo de una manera un poco mas versatil, por ejemplo:
 
-*** x = y = z = 10 ***
+x = y = z = 10
 
 De igual manera podemos asignar varios valores separados por coma:
 
-*** x,y = 4, 2 ***
-*** z, x, y = 1, 2, 3 ***
+ x,y = 4, 2 
+ z, x, y = 1, 2, 3 
 
 ### Nombrando Variables
 
